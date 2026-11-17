@@ -1,0 +1,14 @@
+kolom,deskripsi,satuan,sumber
+provinsi,Nama provinsi (kunci gabung; ejaan BPS),-,BPS
+periode,Awal bulan pengamatan,tanggal,BPS
+wisnus,Jumlah perjalanan wisatawan nusantara menurut provinsi ASAL,perjalanan,BPS (CSV)
+ln_wisnus,Logaritma natural wisnus,-,turunan
+lama_inap_asing,Rata-rata lama menginap tamu asing di hotel berbintang (nilai asli BPS),hari,BPS (CSV)
+lama_inap_asing_bersih,"Seperti di atas, nilai 0 diubah menjadi NaN",hari,turunan
+outlier_inap,"True jika |modified z-score| > 3,5",bool,turunan
+tmax_rata,"Rata-rata suhu maksimum harian dalam bulan, ibu kota provinsi",°C,Open-Meteo (ERA5)
+tmax_puncak,Suhu maksimum tertinggi dalam bulan,°C,Open-Meteo (ERA5)
+hujan_total,Total curah hujan bulan itu,mm,Open-Meteo (ERA5)
+hari_hujan,Jumlah hari dengan hujan >= 1 mm,hari,turunan
+n_hari,Jumlah hari data cuaca tersedia pada bulan itu,hari,turunan
+penduduk / luas_km2,Penduduk dan luas provinsi dari tabel Wikipedia,jiwa / km2,Wikipedia (scraping)

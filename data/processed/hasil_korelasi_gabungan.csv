@@ -1,0 +1,19 @@
+hasil,subset,model,cuaca,n,spearman_rho,p_spearman,pearson_r,p_pearson,signifikan_5%
+ln_wisnus,semua provinsi,A: dalam-provinsi (z),hujan_total,342,-0.2738051364571582,2.694785496330892e-07,-0.24485547672378016,4.616044709256151e-06,True
+ln_wisnus,semua provinsi,A: dalam-provinsi (z),hari_hujan,342,-0.14640506896114402,0.006683400163670916,-0.08431713012634262,0.1196222915712248,True
+ln_wisnus,semua provinsi,A: dalam-provinsi (z),tmax_rata,342,0.1683814965912524,0.001778896869393162,0.15970984227793106,0.0030587300127911986,True
+ln_wisnus,semua provinsi,B: efek tetap prov+bulan,hujan_total,342,-0.2247294878527338,2.7343092214872835e-05,-0.2542567954634589,1.9042970024336574e-06,True
+ln_wisnus,semua provinsi,B: efek tetap prov+bulan,hari_hujan,342,-0.1820740471658367,0.0007166382281041029,-0.1524322853563514,0.004725489392830588,True
+ln_wisnus,semua provinsi,B: efek tetap prov+bulan,tmax_rata,342,0.2763991491686305,2.05446903055039e-07,0.27583968852729995,2.1787854020122743e-07,True
+lama_inap_asing_bersih,semua (kecuali nilai 0),A: dalam-provinsi (z),hujan_total,341,-0.023043116148649914,0.6715568393117022,-0.045702146049720914,0.40018823607639326,False
+lama_inap_asing_bersih,semua (kecuali nilai 0),A: dalam-provinsi (z),hari_hujan,341,0.01448665697879834,0.789819505919229,0.021605603873018995,0.6909585962366477,False
+lama_inap_asing_bersih,semua (kecuali nilai 0),A: dalam-provinsi (z),tmax_rata,341,-0.026425923621157598,0.6267692910621198,-0.044302968336337324,0.4147842698395523,False
+lama_inap_asing_bersih,semua (kecuali nilai 0),B: efek tetap prov+bulan,hujan_total,341,-0.06377286734204804,0.2401894834484864,-0.03874924125408707,0.475727484934831,False
+lama_inap_asing_bersih,semua (kecuali nilai 0),B: efek tetap prov+bulan,hari_hujan,341,-0.01366684585393384,0.8014588223125503,-0.0518881719068871,0.33942501995137747,False
+lama_inap_asing_bersih,semua (kecuali nilai 0),B: efek tetap prov+bulan,tmax_rata,341,-0.02894147357105691,0.59431895287789,0.017225832869411133,0.7512808355458171,False
+lama_inap_asing_bersih,tanpa outlier,A: dalam-provinsi (z),hujan_total,326,-0.04496712394301415,0.4184039496798261,-0.07033540257420383,0.20528764141638917,False
+lama_inap_asing_bersih,tanpa outlier,A: dalam-provinsi (z),hari_hujan,326,0.0027750022752145677,0.9601928251587257,0.008236891125919544,0.8822226567431986,False
+lama_inap_asing_bersih,tanpa outlier,A: dalam-provinsi (z),tmax_rata,326,-0.013445093637525827,0.80890727916909,-0.029027222158826374,0.6015331379188538,False
+lama_inap_asing_bersih,tanpa outlier,B: efek tetap prov+bulan,hujan_total,326,-0.10099125915787804,0.06859179494882651,-0.07746193152549798,0.1629143400793496,False
+lama_inap_asing_bersih,tanpa outlier,B: efek tetap prov+bulan,hari_hujan,326,-0.013399487950929233,0.8095430468128837,-0.03483161825710529,0.5308718113536639,False
+lama_inap_asing_bersih,tanpa outlier,B: efek tetap prov+bulan,tmax_rata,326,-0.04037236209171155,0.4675701587765382,-0.03665364786189017,0.5095885961376296,False
